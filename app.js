@@ -3,7 +3,7 @@ var express = require('express'),
 
 var article = require('./app/routers/article.js');
 var principal = require('./app/routers/principal.js'),
-	repository = require('./repository');
+	repository = require('./app/repositories/article.js');
 
 var app = express();
 var tareaRepository = repository.tareaRepository;

@@ -1,43 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-@font-face {
-  font-family: CarbonBlock;
-  src: url("/img/CarbonBlock.ttf");
-}
-body {
-  font-family: verdana;
-  font-size: 16px;
-  background: #ebebeb;
-}
-header {
-  height: 100px;
-  width: 100%;
-  background: #966fd6;
-  text-align: center;
-  color: #fff;
-  font-family: CarbonBlock;
-  font-size: 48px;
-  letter-spacing: 5px;
-  box-shadow: 0px 5px 5px #888;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
-}
-#content {
-  position: relative;
-  margin-top: 15px;
-  background-color: #fff;
-}
-#content-right {
-  background-color: #779ecb;
-  min-height: 300px;
-  float: right;
-}
-footer {
-  position: absolute;
-  bottom: 10px;
-  color: #999;
-  font-size: 0.8em;
-  text-align: right;
-  right: 10px;
-}
+*{margin:0;padding:0}
+@font-face{font-family:CarbonBlock;src:url("/img/CarbonBlock.ttf")}
+body{font-family:verdana;font-size:16px;background:#ebebeb}
+header{background:#966fd6;box-shadow:0 5px 5px #888;color:#fff;font-family:CarbonBlock;font-size:48px;height:100px;letter-spacing:5px;text-align:center;text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,0.1),0 0 5px rgba(0,0,0,0.1),0 1px 3px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2),0 5px 10px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.2),0 20px 20px rgba(0,0,0,0.15);width:100%}
+#wrapper{background-color:#fff;bottom:10px;display:block;left:10px;overflow:hidden;position:absolute;right:10px;top:115px}
+#content-left{float:left;height:100%;position:relative;width:40%}
+#inside-top{background-color:#145a00;height:120px}
+#inside-bottom{background-color:#779ecb;bottom:0;left:0;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;top:120px}
+#content-right{height:100%;float:right;overflow-x:hidden;overflow-y:auto;width:60%}
+.box{border-bottom:1px dashed #ccc;display:block;height:100px;padding:8px;margin:10px;}
+.box h3{text-align:right}
+footer{bottom:13px;color:#999;font-size:.8em;left:20px;position:fixed;text-align:right}
